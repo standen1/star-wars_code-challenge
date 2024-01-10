@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  @apply mx-auto max-w-7xl px-4 sm:px-6 lg:px-8;
+}
+
+h1 {
+  @apply text-4xl font-bold tracking-tight sm:text-6xl;
+}
+
+h2 {
+  @apply text-3xl font-semibold leading-8;
+}
+
+h3 {
+  @apply text-2xl font-semibold leading-8;
+}
+
+h4 {
+  @apply text-xl font-semibold;
+}
+
+h5 {
+  @apply text-lg font-semibold;
+}
+
+h6 {
+  @apply text-base font-semibold;
+}
+
+p {
+  @apply text-gray-700 leading-relaxed text-sm sm:text-base;
+}
+
+button {
+  @apply flex-none rounded-md px-3.5 py-2.5 text-sm font-semibold;
+}
