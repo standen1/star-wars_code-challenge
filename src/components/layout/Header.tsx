@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <header>
+    <header className="bg-white">
       <nav className="container flex justify-between py-6">
         <div className="flex lg:flex-1">
           <Link href="/">

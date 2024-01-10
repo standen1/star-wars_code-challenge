@@ -8,7 +8,7 @@ import { client } from "../lib/apollo";
 export default function Home({ films }: any) {
   return (
     <Layout>
-      <HomePage />
+      <HomePage films={films} />
     </Layout>
   );
 }
@@ -21,6 +21,7 @@ export async function getStaticProps() {
           node {
             title
             director
+            openingCrawl
           }
         }
       }

@@ -1,0 +1,33 @@
+.ContactForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 1rem;
+    max-width: 600px;
+    text-align: center;
+}
+
+.formFlex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    text-align: start;
+    margin-bottom: 1rem;
+}
+
+.formFlex input {
+    width: 100%;
+}
+
+.formFullWidth {
+    text-align: start;
+    margin-bottom: 1rem;
+}
+
+.formFullWidth textarea {
+    width: 366px;
+    height: 100px;
+}
